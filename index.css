@@ -1,0 +1,95 @@
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/Gothic-Wallpapers-HD-Free-Download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+.hmbox {
+    background-color: black;
+    opacity: 80%;
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+}
+
+div.hmbox h1 {
+    color: purple;
+    text-align: center;
+}
+
+div.hmbox p {
+    color: purple;
+}
+
+.htbox2 {
+  background-color: black;
+  opacity: 80%;
+  width: 50%;
+  margin: auto;
+  padding: 1px;
+}
+
+.htbox2 h3 {
+  color: purple;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.htpics {
+  width: 50%;
+  margin: auto;
+  padding: 1px;
+}
+
+picture {
+  width: 100%;
+  margin: auto;
+  padding: 1px;
+}
+
+img {
+  width: 49%;
+  height: auto;
+  padding: 1px;
+}
+
+footer {
+    background-color: #333;
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+}
+
+footer p {
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
