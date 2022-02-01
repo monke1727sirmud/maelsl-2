@@ -84,6 +84,11 @@ th {
 td {
     height: 50%;
     text-align: left;
+    color: purple;
+}
+
+td p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 th, td {
