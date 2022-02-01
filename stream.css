@@ -68,6 +68,7 @@ ul {
 
 table {
     width: 100%;
+    overflow-x: auto;
 }
 
 table, th, td {
@@ -94,7 +95,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-    background-color: black;
+    background-color: #555;
 }
 
 img {
