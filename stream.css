@@ -43,6 +43,13 @@ ul {
 .hmbox h1 {
     color: purple;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hmbox p {
+    color: purple;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .stm {
