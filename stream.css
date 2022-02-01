@@ -66,6 +66,37 @@ ul {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px dotted cornflowerblue;
+}
+
+th {
+    height: 50%;
+    color: purple;
+    text-align: center;
+}
+
+td {
+    height: 50%;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #333;
+}
+
+tr:hover {
+    background-color: black;
+}
+
 img {
   width: 49%;
   height: auto;
