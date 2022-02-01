@@ -40,16 +40,12 @@ ul {
     padding: 1px;
 }
 
-div.hmbox h1 {
+.hmbox h1 {
     color: purple;
     text-align: center;
 }
 
-div.hmbox p {
-    color: purple;
-}
-
-.htbox2 {
+.stm {
   background-color: black;
   opacity: 80%;
   width: 50%;
@@ -57,22 +53,10 @@ div.hmbox p {
   padding: 1px;
 }
 
-.htbox2 h3 {
+.stm h3 {
   color: purple;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.htpics {
-  width: 50%;
-  margin: auto;
-  padding: 1px;
-}
-
-picture {
-  width: 100%;
-  margin: auto;
-  padding: 1px;
 }
 
 img {
