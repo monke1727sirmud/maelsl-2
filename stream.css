@@ -103,6 +103,12 @@ tr:hover {
     background-color: #555;
 }
 
+.audio-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 49%;
   height: auto;
