@@ -79,6 +79,18 @@ a {
     color: purple;
 }
 
+picture img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+picture source {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
 #topbtn34 {
     display: none;
     position: fixed;
