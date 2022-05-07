@@ -81,6 +81,12 @@ img {
   padding: 1px;
 }
 
+.msc_player {
+  width: 20%;
+  height: auto;
+  margin: auto;
+}
+
 #topbtn34 {
   display: none;
   position: fixed;
