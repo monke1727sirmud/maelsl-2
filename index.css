@@ -88,6 +88,11 @@ img {
   align-content: center;
 }
 
+.msc_player img{
+  width: 50px;
+  height: auto;
+}
+
 #topbtn34 {
   display: none;
   position: fixed;
