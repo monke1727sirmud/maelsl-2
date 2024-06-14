@@ -1,0 +1,125 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/8cknB00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: black;
+  }
+
+.cthmbx {
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+    background-color: black;
+    opacity: 80%;
+}
+
+.cthmbx h1 {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.cthmbx p {
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.ctgrd table {
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+    background-color: black;
+}
+
+th {
+    background-color: #333;
+    color: purple;
+    text-align: center;
+}
+
+td {
+    background-color: black;
+    color: purple;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px solid #333;
+}
+
+a {
+    color: purple;
+}
+
+picture img {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+picture source {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+#topbtn34 {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #topbtn34:hover {
+    background-color: #555;
+  }
+
+footer {
+    width: 50%;
+    margin: auto;
+    padding: 1px;
+    background-color: #333;
+}
+
+footer p {
+    color: purple;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
