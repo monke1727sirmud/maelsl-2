@@ -1,0 +1,69 @@
+// Messenger Plus! Script File
+// ============================================================
+// Name: Windows Live Messenger Discord Presence
+// Description: Logs Messenger status and chat activity for Discord Rich Presence.
+// Author: Mael
+// Version: 2.0
+// Date: 1991-01-08
+// ============================================================
+
+var fs = new ActiveXObject("Scripting.FileSystemObject");
+var statusFilePath = "C:\\MessengerDiscordPresence\\status.txt"; // Path to output file
+
+// Ensure output directory exists
+function EnsureOutputDirectoryExists() {
+    var folderPath = "C:\\MessengerDiscordPresence";
+    if (!fs.FolderExists(folderPath)) {
+        fs.CreateFolder(folderPath);
+    }
+}
+
+// Function to write status and details to the file
+function WriteStatusToFile(status, details) {
+    EnsureOutputDirectoryExists();
+    var statusFile = fs.CreateTextFile(statusFilePath, true); // Open file for writing
+    statusFile.WriteLine("Messenger Status: " + status);
+    statusFile.WriteLine("Details: " + details);
+    statusFile.Close();
+}
+
+// Event: Triggered when your Messenger status changes
+function OnEvent_SelfStatusChanged(newStatus) {
+    var statusText = "";
+
+    switch (newStatus) {
+        case 1:
+            statusText = "Online";
+            break;
+        case 2:
+            statusText = "Busy";
+            break;
+        case 3:
+            statusText = "Away";
+            break;
+        case 4:
+            statusText = "Be Right Back";
+            break;
+        case 5:
+            statusText = "On the Phone";
+            break;
+        case 6:
+            statusText = "Out to Lunch";
+            break;
+        default:
+            statusText = "Offline";
+    }
+
+    WriteStatusToFile(statusText, "No additional details.");
+}
+
+// Event: Triggered when you start chatting with a contact
+function OnEvent_ChatWndCreated(ChatWnd) {
+    var contactName = ChatWnd.Contact.Name;
+    WriteStatusToFile("Online", "Chatting with: " + contactName);
+}
+
+// Event: Triggered when a chat window is closed
+function OnEvent_ChatWndDestroyed(ChatWnd) {
+    WriteStatusToFile("Online", "Stopped chatting.");
+}
